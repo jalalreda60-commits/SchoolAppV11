@@ -1,0 +1,34 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Database (generated at runtime — do not version actual data)
+database/school.db
+database/*.db
+database/*.db-journal
+
+# Backups & exports (generated at runtime)
+backups/*.db
+exports/*.html
+exports/*.pdf
+exports/receipts/
+
+# PyInstaller
+build/
+dist/
+*.spec.bak
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
